@@ -1,0 +1,9 @@
+
+insert into Type  values
+(1,'盗梦空间','剧情',	1);
+insert into Type  values
+(1,'盗梦空间','科幻',	2);
+insert into Type  values
+(1,'盗梦空间','悬疑', 3);
+insert into Type  values
+(1,'盗梦空间','冒险', 4);
