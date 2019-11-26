@@ -1,0 +1,11 @@
+CREATE TABLE Comment
+(
+	Comment_ID INT CONSTRAINT S_Prim PRIMARY KEY,
+  File_ID INT NOT NULL,
+  User_ID INT NOT NULL,
+  StarLevel INT NOT NULL,
+  Content VARCHAR(500),
+  Comment_Time DATA,
+  Terinal VARCHAR(10),
+  OtherLike INT
+)
